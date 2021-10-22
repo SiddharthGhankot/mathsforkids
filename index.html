@@ -1,0 +1,484 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Easy Maths for kids</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+
+html{
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+body{
+    background-image:url(https://wallpaperaccess.com/full/1567836.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%; 
+}
+
+
+.fixedbar{
+    display:flex;
+    background-color:black;
+    position:sticky;
+    z-index:1; 
+    border-width:1px 1px 1px 1px;
+    border-radius:10px 10px 10px 10px;   
+}
+
+.fixedbaroptions{
+    display:flex;
+    flex-direction:left-right;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:20px;
+    align-items:center;
+}
+
+.fixedbaroptions>a:hover{
+    color:#5EFCE8;
+    transform:scale(1.1);
+}
+
+.logopart{
+    flex:50%;
+    display:flex;
+    flex-direction:left-right;
+    font-size:40px;
+    align-items:center;
+    color:#8FFBFA;
+    font-family:Helvetica, Arial, sans-serif;
+    padding:10px;
+}
+
+.logoimage{
+    margin:10px 10px 0px 10px;
+}
+
+.fixedbaroptions>a{
+    text-decoration:none;
+    padding-right:30px;
+    color:white;
+}
+
+.introduction{
+    display:flex;
+    flex-direction:left-right;
+    background-color: white;
+    margin-top:20px;
+    border-radius:10px 10px 10px 10px;
+    height:610px;
+}
+
+.introductiontext{
+    font-family: Papyrus, fantasy;
+    min-width: 640px;
+}
+
+.introimage{
+    margin-right:8px;
+    margin-top:30px;
+}  
+
+.introtitle{
+    margin-top:200px;
+    margin-left:25px;
+    font-size:60px;	
+}
+
+.introsubtitle{
+    margin-top:50px;
+    margin-left:25px;
+    font-size:25px;
+    color:#07296C;
+}
+
+.itemdiv{ 
+        height:430px;
+        width:305px;
+        background-color:white;
+        margin-top:35px;
+        margin-left:60px;
+        margin-bottom:60px;
+        float:left;
+        border-radius:5%;
+    }  
+
+    img{
+        border-radius:5% 5% 0% 0%;
+    }
+
+    .foodname{
+        postion:relative;
+        margin-left:10px;
+        margin-top:10px;
+        font-size:125%;
+        font-family:Gill Sans, sans-serif;
+    }
+  
+    .content{
+        position:relative;
+        margin-left:5px;
+        margin-right:5px;
+        font-family:Gill Sans, sans-serif;
+    }
+
+    .example2{
+        position:relative;
+        left:30px;
+        top:-103px;
+    }
+
+    .example1{
+        position:relative;
+        left:-30px;
+        top:-45px;
+        font-size:200%;
+        color:red;
+    }
+
+    input[type="text"] {
+        width:100%;
+        height:39px;
+        color:black;
+        font-size:20px;
+        border:3px solid #BEBEBE;
+        border-radius:15px 0px 0px 15px;
+    }
+    
+    
+
+    button{
+        position:relative;
+        left:460px;
+        top:-47px;
+        width:20%;
+        height:47px;
+        border:3px solid #BEBEBE;
+        border-radius:0px 15px 15px 0px;
+        cursor:pointer;
+        background-color:white;
+        
+    }
+
+    button:hover{
+        background-color:white;
+        transform:scale(1.01);
+    }
+
+ 
+</style>  
+  
+</head>
+<body>
+    <div class="backgroundimage">
+        <a id="home"></a>
+
+        <div class="fixedbar">
+	    <div class="logopart">
+		<div class="logoimage">
+		    <img src="https://www.fife.ac.uk/media/3828/mathematics-png.jpg?anchor=center&mode=crop&width=1200&height=800&rnd=132155248940000000" width="90" height="75">
+		</div>							
+	    </div>
+	    <div class="fixedbaroptions">
+                <a href="#addition" id="addition">Addition</a>
+		<a href="#subtraction" class="subtraction">Subtraction</a>
+                <a href="#multiplication" class="multiplication">Multiplication</a>
+		<a href="#division" class="division">Division</a>				
+	    </div>			
+	</div>
+  
+        <div class="introduction">
+	    <div class="introductiontext">
+	        <div class="introtitle">
+		    <p><b>Say Bye to boring Maths....</b></p>
+	        </div>					
+	        <div class="introsubtitle">						
+                <p>You can learn the basic mathematical operations such as addition, subtraction, multiplication and division in a very interesting and a simple way...</p>
+	        </div>						
+	    </div>	
+            <div class="introimage">
+	        <img src="https://www.theschoolrun.com/sites/theschoolrun.com/files/article_images/what_are_the_four_operations.png" />			
+	    </div>														
+        </div>
+ 
+        <section id="addition"></section>
+        <div>
+            <h1 style="text-align:center;color:#F1F019;text-shadow: 2px 2px 5px red;">Addition</h1>
+            <h2 style="text-align:center;color:#9A5CD3;text-shadow: 2px 2px 3px #CCFFB2;">As the name tells us, addition means that you just have to add any item. It is very simple. You will understand better when we will check out the examples. Now lets check some important points regarding Addition.<br><br> 1. Whenever we add 'zero' to some number, we always get the same number.<br> 2. We can always compare the addition problems with our real life problems.<br><br> Now let us try some examples.<br><br> </h2>
+        </div>
+
+        <div class="itemdiv">
+   
+            <div class="foodpic">
+                <img src="https://images.everydayhealth.com/images/apples-101-about-1440x810.jpg?sfvrsn=f86f2644_1" width="305" height="210" /> 
+                <div class="foodname">
+                    <p><b>Apples</b></p>
+                </div>
+                <div class="content">
+                    If you have 3 apples with you and your mother gives you another 3 apples, how many apples will you have together?<br><br> The total number of apples will be 3+3=6.<br> Now you have 6 apples!!!.
+                </div>     
+            </div>    
+        </div>
+
+        <div class="itemdiv">
+   
+            <div class="foodpic">
+            <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/272/272782/oranges-in-a-box.jpg" width="305" height="210" /> 
+                <div class="foodname">
+                    <p><b>Oranges</b></p>
+                </div>
+                <div class="content">
+                    If you have 4 oranges and your friend gives you 1 orange, how many oranges will you have finally?<br><br> The total number of oranges will be 4+1=5.<br> Now you have 5 yummy oranges!!!.
+                </div>
+            </div>
+        </div>
+
+        <div class="itemdiv">
+   
+            <div class="foodpic">
+            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C6DC/production/_107080905_gettyimages-654239286.jpg" width="305" height="210" /> 
+                <div class="foodname">
+                    <p><b>Pencils</b></p>
+                </div>
+                <div class="content">
+                    If you have 7 pencils in your box and your brother gives you another 8 pencils, how many pencils will you have?<br><br> The total number of pencils will be 7+8=15.<br> Now you have 15 pencils!!!.
+                </div>
+            </div> 
+        </div>
+
+        <div class="itemdiv">
+   
+            <div class="foodpic">
+            <img src="https://cdn.theatlantic.com/thumbor/5PMHqa7Tnt-rxWjFxDT61NrGSiQ=/0x345:4735x3008/960x540/media/img/mt/2018/02/RTX4AEDS/original.jpg" width="305" height="210" /> 
+                <div class="foodname">
+                    <p><b>Balls</b></p>
+                </div>
+                <div class="content">
+                    If you are playing with 2 balls and your father gives you another 5 balls, how many balls do you have now?><br><br> The total number of balls you will have is 2+5=7.<br> So now you have 7 balls to play!!!.
+                </div>       
+            </div>    
+        </div>
+
+        
+        
+        <div>
+            <section id="subtraction"></section>
+            <h1 style="text-align:center;color:#F1F019;text-shadow: 2px 2px 5px red;margin-top:100px">Subtraction</h1>
+             
+            <h2 style="text-align:center;color:#9A5CD3;text-shadow: 2px 2px 3px #CCFFB2;">Subtraction means that you have to remove some items from some given items. This simply means that you have to take away some number from another number. Let us see some points about subtraction.<br><br> 1. Whenever we subtract 'zero' from a number, we get the same number.<br>2. When we subtract the number from itself, we will get the answer as 'zero'.<br><br> Now let us check some examples.<br><br></h2>
+        </div>
+
+        <div class="itemdiv">
+            <div class="foodpic">
+                <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/28/1432808457903/A-pink-pencil-eraser.-009.jpg?width=700&quality=85&auto=format&fit=max&s=a36ec2aa38423dea3ad818587d61ef66" width="305" height="210" /> 
+                <div class="foodname">
+                    <p><b>Erasers</b></p>
+                </div>
+                <div class="content">
+                    Suppose you have 9 erasers with you. Your sister asked for 3 erasers from you. How many erasers will you have after giving the erasers to your sister?<br><br> When we remove 3 erasers from 9 erasers, we are left with 9-3=6 erasers. 
+                </div>  
+            </div>
+        </div>
+
+        <div class="itemdiv">
+            <div class="foodpic">
+                <img src="https://static6.depositphotos.com/1000724/540/i/950/depositphotos_5406322-stock-photo-five-chocolates.jpg" width="305" height="210" /> 
+                <div class="foodname">
+                    <p><b>Chocolates</b></p>
+                </div>
+                <div class="content">
+                    If you have 20 chocolates and you give 10 chocolates to your brother, how many chocolates do you have now?<br><br> When your brother takes 10 chocolates from your 20 chocolates you will have only 20-10=10 chocolates:(
+                </div>
+            </div>    
+        </div>
+ 
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Biscuits</b></p>
+           </div>
+           <div class="content">
+               If your friend has 10 biscuits and you take 4 biscuits from him, how many biscuits will he have?<br><br> When you take 4 biscuits from his 10 biscuits he will only have 10-4=6 biscuits for him.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://static.scientificamerican.com/sciam/cache/file/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.jpg?w=590&h=800&D80F3D79-4382-49FA-BE4B4D0C62A5C3ED" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Books</b></p>
+           </div>
+           <div class="content">
+               If you have 5 books and you give all the five books to your friend, how many books do you have now?<br><br> When you give your 5 books to your friend, you will have 5-5=0 books with you.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div>
+            <section id="multiplication"></section>
+            <h1 style="text-align:center;color:#F1F019;text-shadow: 2px 2px 5px red;margin-top:100px">Multiplication</h1>
+             
+            <h2 style="text-align:center;color:#9A5CD3;text-shadow: 2px 2px 3px #CCFFB2;">Multiplication means repeated additon. When you add something to another thing continuously, it is called multiplication. Lets us look at an example so that you will understand better.<br><br>Example: If one bag has 5 apples, then how many apples are there in 6 bags?<br>We can see that one bag has 5 apples. So 2 bags will have 5+5=10 apples, 3 bags will have 5+5+5=15 apples, 4 bags will have 5+5+5+5=20 apples, 5 bags will have 5+5+5+5+5=25 apples, and finally 6 bags will have 5+5+5+5+5+5=30 apples.<br> Here we have added 5 'six' times. So 5 multiplied by 6 will be 5 x 6 = 30.<br><br> Let us look at some other examples also.<br><br> </h2>
+        </div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://pyxis.nymag.com/v1/imgs/765/2b6/04757c03f93ee03f392b59c32daedf464b-pentel-energel.2x.rhorizontal.w600.jpg" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Pens</b></p>
+           </div>
+           <div class="content">
+               If 1 packet of pens has 10 pens, then how many pens are there in 6 packets?<br><br>The number of pens in 6 packets are 10+10+10+10+10+10=60 pens, which is also same as 6x10=60 pens.
+           </div>
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://i2.wp.com/www.wellappointeddesk.com/wp-content/uploads/2020/08/1-six-sharpeners.jpg?fit=960%2C652&ssl=1" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Sharpeners</b></p>
+           </div>
+           <div class="content">
+               If 1 box of sharpeners has 5 sharpeners in it, then how many sharpeners will be there in 8 boxes? <br><br>The number of sharpeners in 8 boxes are 5+5+5+5+5+5+5+5=40 sharpeners, which is same as 5x8=40 sharpeners.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-1200-80.jpg" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Bananas</b></p>
+           </div>
+           <div class="content">
+               If 1 basket of bananas has 7 bananas, then how many bananas are there in 7 baskets? <br><br> The number of bananas in 7 baskets are 7+7+7+7+7+7+7=49 bananas which is equal to 7x7=49 bananas.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://static.toiimg.com/photo/52743612.cms" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Rasgullas</b></p>
+           </div>
+           <div class="content">
+               If one box of rasagullas has 8 rasagullas, then how many rasagullas will be there in 10 boxes? <br><br> The number of rasagullas in 10 boxes are 8+8+8+8+8+8+8+8+8+8=80 rasagullas which is same as 8x10=80 rasagullas.
+           </div>
+        
+    </div>
+    
+</div>
+
+  
+<section id="division"></section>
+
+
+<div>
+            <section id="multiplication"></section>
+            <h1 style="text-align:center;color:#F1F019;text-shadow: 2px 2px 5px red;margin-top:100px">Division</h1>
+             
+            <h2 style="text-align:center;color:#9A5CD3;text-shadow: 2px 2px 3px #CCFFB2;">Division means dividing something into some equal parts. When you divide a number with anothe number it means that you are cutting the the thing into some number of equal parts. You will understand this when you will see some examples.<br><br> </h2>
+        </div>
+
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F15%2Fmozzarella-pizza-margherita-FT-RECIPE0621.jpg&q=85" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Pizza</b></p>
+           </div>
+           <div class="content">
+               If a pizza is cut into 6 slices and there are 3 people in the room, then we say that each person gets 2 slices of pizza. This is called division. We can also say that 6 divided by 3 is 2.
+           </div>
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://i.guim.co.uk/img/media/9d43b48e8e83ec78c24b04eaee7a87574b7a4883/0_181_5195_3118/master/5195.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=e74f3b7659ac3863790dd21e9e38ea5f" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Cake</b></p>
+           </div>
+           <div class="content">
+               If a cake is cut into 8 pieces and there are only 2 people in the room, then we say that each person will get 4 pieces of cake. We can also say this as 8 divided by 2 is 4.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://i.pinimg.com/originals/2c/b6/66/2cb666794c0fcc17e288a4e401245f0a.jpg" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Pie</b></p>
+           </div>
+           <div class="content">
+               If we cut a pie into 10 equal parts and there are 5 people in the party, then if we divide the pie among 5 people, every person will get 2 pieces of pie. This can be said as 10 divided by 5 is 2.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div class="itemdiv">
+   
+    <div class="foodpic">
+        <img src="https://cdn.britannica.com/w:400,h:300,c:crop/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg" width="305" height="210" /> 
+           <div class="foodname">
+               <p><b>Strawberries</b></p>
+           </div>
+           <div class="content">
+               If you have 12 strawberries and there are 4 people in the room then, if we divide all the strawberries equally then every person will get 3 strawberries. This is also said as 12 divide by 4 is 3.
+           </div>
+        
+    </div>
+    
+</div>
+
+<div>
+            <section id="multiplication"></section>
+            <h1 style="text-align:center;color:#F1F019;text-shadow: 2px 2px 5px red;margin-top:100px">We have learnt addition, subtraction, multiplication, and division with the help of so many real life examples.</h1>
+             
+            
+        </div>
+
+
+
+
+</div>
+</div>
+
+      
+</body>
+</html>						
